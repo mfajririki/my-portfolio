@@ -23,6 +23,7 @@
               secondary: "#FBF8AC",
               light: "#F3F4F8",
               dark: "#262D36",
+              button: "#474747",
             },
           },
         },
@@ -31,8 +32,74 @@
     <title>Muhammad Fajri Riki | Welcome to My Portfolio Website!</title>
   </head>
   <body class="font-['poppins']">
+    <!-- Flying Button Widget -->
+    <div
+      id="flyingButtonWidget"
+      class="fixed bottom-5 left-1/2 -translate-x-1/2 lg:top-1/2 lg:bottom-auto lg:-translate-y-1/2 lg:left-auto lg:right-3 z-50 flex lg:flex-col gap-1.5"
+    >
+      <a href="#home" class="rounded-full p-1.5 bg-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="#ffffff"
+          class="bi bi-house"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
+          />
+        </svg>
+      </a>
+      <a href="#skills" class="rounded-full p-1.5 bg-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="#ffffff"
+          class="bi bi-braces"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"
+          />
+        </svg>
+      </a>
+      <a href="#experience" class="rounded-full p-1.5 bg-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="#ffffff"
+          class="bi bi-briefcase"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"
+          />
+        </svg>
+      </a>
+      <a href="#contact" class="rounded-full p-1.5 bg-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="#ffffff"
+          class="bi bi-person-badge"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"
+          />
+          <path
+            d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"
+          />
+        </svg>
+      </a>
+    </div>
+    <!-- End Flying Button Widget -->
     <!-- Hero Section -->
-    <section id="home" class="bg-light">
+    <section id="home" class="bg-light pb-10 lg:pb-24">
       <h1 class="font-bold text-[30px] text-primary text-center pt-3 lg:hidden">
         Welcome!
       </h1>
@@ -97,8 +164,17 @@
     </section>
     <!-- End Hero Section -->
     <!-- Education Section -->
-    <section id="education">
-      <p>fadjflsdfdsl</p>
+    <section id="education" class="pt-16">
+      <div class="relative">
+        <h1
+          class="text-lg lg:text-2xl text-primary font-semibold absolute left-1/2 -translate-x-1/2 bottom-0"
+        >
+          Formal Education
+        </h1>
+        <div
+          class="bg-secondary h-[13px] w-[160px] lg:w-[210px] mx-auto rounded-full"
+        ></div>
+      </div>
     </section>
     <!-- End Education Section -->
   </body>
